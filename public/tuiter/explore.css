@@ -7,5 +7,15 @@ body{
     margin-left: 16px;
 }
 .wd-rounded{
-    border-radius: 50px;
+    border-radius: 25px;
+    background-color: dark gray;
+    color: white;
+}
+.wd-rel-right {
+    position: relative;
+    left: 16px;
+}
+.wd-rel-left {
+    position: relative;
+    right: 16px;
 }
