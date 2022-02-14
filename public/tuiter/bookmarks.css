@@ -10,7 +10,7 @@ body{
     right: 8px;
 }
 .wd-book-head {
-    position: absolute;
+    position: relative;
     border-size: 1px;
     border-color: rgb(47, 51, 54);
     border-style: solid;
