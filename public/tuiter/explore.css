@@ -38,7 +38,6 @@ body{
 }
 
 .wd-ellipse {
-    location: absolute;
     float: right
     text-align: right;
 }
