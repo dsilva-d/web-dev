@@ -7,12 +7,13 @@ body{
     margin-left: 16px;
 }
 .wd-section {
-    position: relative
+    position: absolute;
+
 }
 .wd-search{
     border-radius: 25px;
     background-color: rgb(36,36,36);
-    color: rgb(36,36,36);
+    color: gray;
     position: absolute;
     padding-left: 28px;
     right: 41px;
@@ -27,7 +28,9 @@ body{
     top: 8px;
     right: 8px;
 }
-.wd-alignment {
+.wd-tab-alignment {
+    position: absolute
+    top: 70px;
     float: left;
 }
 .wb-tab-highlighted {
@@ -45,7 +48,7 @@ body{
 .wd-tab-unhighlighted {
     position: relative;
     text-align: center;
-    color: gray;
+    color: rgb(36,36,36);
     width: 16%;
     height: 25px;
 }
