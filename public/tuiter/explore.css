@@ -39,7 +39,7 @@ body{
 
 .wd-ellipse {
     location: absolute;
-    right: 8px;
+    left: 8px;
 }
 
 .wd-icon {
