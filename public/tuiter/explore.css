@@ -9,6 +9,7 @@ body{
 .wd-search-section {
     position: relative;
     width: auto;
+    height:20px;
 }
 
 .wd-div-search-tabs {
