@@ -25,7 +25,7 @@ body{
     border-radius: 25px;
     background-color: rgb(36,36,36);
     color: gray;
-    position: absolute;
+    position: relative;
     padding-left: 28px;
     right: 41px;
     left: 16px;
@@ -35,8 +35,7 @@ body{
     left: 25px;
 }
 .wd-gear {
-    position: absolute;
-    top: 8px;
+    position: relative;
     right: 8px;
 }
 .wd-tab-alignment {
