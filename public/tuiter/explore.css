@@ -28,6 +28,11 @@ body{
     height: auto;
     font-size: 13px;
 }
+.wd-trending-photo {
+    height: 48px;
+    position: absolute;
+    right: 8px;
+}
 
 
 .wd-tabs {
