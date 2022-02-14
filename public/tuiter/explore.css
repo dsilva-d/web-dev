@@ -40,14 +40,11 @@ body{
     text-align: center;
     color: rgb(29,161,242);
     border-bottom: 4px solid;
-    border-bottom-color: blue;
+    border-bottom-color: rgb(29,161,242);
     width: 16%;
     height: 25px;
 }
-.wb-post-search {
-    position: absolute
-    top: 40px;
-}
+
 .wd-tab-unhighlighted {
     position: relative;
     text-align: center;
