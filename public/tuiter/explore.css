@@ -11,6 +11,8 @@ body{
     background-color: dark gray;
     color: white;
     height: 25px;
+    position: absolute;
+    top: 8px;
 }
 .wd-rel-right {
     position: relative;
@@ -18,8 +20,8 @@ body{
 }
 .wd-gear {
     position: absolute;
-    right: 0px;
-    top: 0px;
+    right: 16px;
+    top: 8px;
 }
 .wd-rel-left {
     position: relative;
