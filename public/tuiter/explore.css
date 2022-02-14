@@ -6,7 +6,9 @@ body{
 .wd-offset {
     margin-left: 16px;
 }
-
+.wd-search-section {
+    position: relative
+}
 .wd-div-search-tabs {
     position: absolute;
     top: 40px;
