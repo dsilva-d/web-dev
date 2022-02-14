@@ -23,6 +23,13 @@ body{
     width: auto;
 }
 
+.stretch {
+  width: 100%;
+  display: inline-block;
+  font-size: 0;
+  line-height: 0
+}
+
 .wd-search{
     border-radius: 25px;
     background-color: rgb(36,36,36);
