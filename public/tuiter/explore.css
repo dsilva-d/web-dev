@@ -35,6 +35,7 @@ body{
 }
 .wd-tab-unhighlighted {
     text-align: center;
+    color: gray;
 }
 .wb-tab-done {
     clear: both;
