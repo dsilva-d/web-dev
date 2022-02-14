@@ -6,6 +6,9 @@ body{
 .wd-offset {
     margin-left: 16px;
 }
+.wd-search-section {
+    position: relative
+}
 .wd-search{
     border-radius: 25px;
     background-color: rgb(36,36,36);
