@@ -19,14 +19,13 @@ body{
 }
 .wd-book-heading {
     position: relative;
-    top:12px;
+    top:0px;
     left:16px;
 
 }
 .wd-book-user {
     position: relative;
     top: 12px;
-    left: 16px;
     font-color:rgb(211,211,211);
     font-size:13px;
 }
