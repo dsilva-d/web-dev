@@ -28,9 +28,11 @@ body{
     height: auto;
     font-size: 13px;
 }
+
 .wd-suggested-photo {
     height: 80px;
     width: 80px;
+    border-radius: 25px;
     position: absolute;
     right: 8px;
 }
