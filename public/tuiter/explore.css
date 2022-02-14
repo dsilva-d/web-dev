@@ -16,6 +16,6 @@ body{
 }
 .wd-gear {
     position: absolute;
-    height: 8px;
+    top: 8px;
     right: 8px;
 }
