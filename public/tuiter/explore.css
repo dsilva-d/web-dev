@@ -10,9 +10,12 @@ body{
     position: relative
 }
 .wd-div-search-tabs {
-    position: absolute;
-    top: 40px;
+    position: relative
 }
+.wd-tabs {
+    position: relative
+}
+
 .wd-tabs {
     position: absolute;
     top: 50px;
