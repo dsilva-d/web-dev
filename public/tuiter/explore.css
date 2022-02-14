@@ -40,9 +40,11 @@ body{
     top: 40px;
 }
 .wd-tab-unhighlighted {
+    position: relative;
     text-align: center;
     color: gray;
 }
 .wb-alignment-done {
+    position: relative;
     clear: both;
 }
