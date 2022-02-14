@@ -3,3 +3,14 @@ body{
     color: white;
     border-color: rgb(47, 51, 54)
 }
+
+.wd-ellipse {
+    position: absolute;
+    right: 8px;
+}
+.wd-book-head {
+    position: relative;
+    border-size: 1px;
+    border-color: light gray;
+    height: 24px;
+}
