@@ -4,5 +4,8 @@ body{
     border-color: rgb(47, 51, 54)
 }
 .wd-offset {
-    margin-left: 32px;
+    margin-left: 16px;
+}
+.wd-rounded{
+    border-radius: 50px;
 }
