@@ -11,6 +11,7 @@ body{
     background-color: dark gray;
     color: white;
     height: 25px;
+    width: 100%
 }
 .wd-rel-right {
     position: relative;
