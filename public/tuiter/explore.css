@@ -16,6 +16,11 @@ body{
     position: relative;
     left: 16px;
 }
+.wd-gear {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
 .wd-rel-left {
     position: relative;
     right: 16px;
