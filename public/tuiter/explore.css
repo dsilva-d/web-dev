@@ -36,8 +36,8 @@ body{
     left: 25px;
 }
 .wd-gear {
-    position: relative;
-    left: 8px;
+    position: absolute;
+    right: 8px;
 }
 .wd-tab-alignment {
     float: left;
