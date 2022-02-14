@@ -21,9 +21,11 @@ body{
     position: relative
     width: auto;
 }
-.wd-trending-1 {
+.wd-trending {
     color: rgb(110, 118, 125);
     border: 1px;
+    width: auto;
+    height: auto;
     font-size: 13px;
 }
 
