@@ -12,7 +12,7 @@ body{
     color: white;
     height: 25px;
     width: 100%;
-    padding: 100px 41px 8px 0px;
+    margin-right: 41px;
 }
 .wd-gear {
     position: absolute;
