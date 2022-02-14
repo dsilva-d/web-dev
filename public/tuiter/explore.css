@@ -8,7 +8,7 @@ body{
 }
 .wd-section {
     position: absolute;
-
+    top: 50px;
 }
 .wd-search{
     border-radius: 25px;
