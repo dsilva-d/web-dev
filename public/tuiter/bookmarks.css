@@ -6,7 +6,7 @@ body{
 
 .wd-ellipse {
     position: absolute;
-    top: 8px;
+    top: 16px;
     right: 8px;
 }
 .wd-book-head {
@@ -14,8 +14,7 @@ body{
     border-size: 1px;
     border-color: rgb(47, 51, 54);
     border-style: solid;
-
-    height: 52px;
+    height: 64px;
     width: 100%;
 }
 .wd-book-heading {
