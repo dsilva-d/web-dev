@@ -10,9 +10,9 @@ body{
     border-radius: 25px;
     background-color: rgb(169,169,169);
     color: white;
-    width: 80%;
     position: absolute;
     right: 41px;
+    left: 0px;
 }
 .wd-gear {
     position: absolute;
