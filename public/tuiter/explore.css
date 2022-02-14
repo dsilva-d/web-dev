@@ -48,16 +48,13 @@ body{
     color: rgb(29,161,242);
     border-bottom: 4px solid;
     border-bottom-color: rgb(29,161,242);
-    width: 15%;
     height: 25px;
     padding: 16px;
-    font-size: 15px;
 }
 
 .wd-tab-unhighlighted {
     text-align: center;
     color: rgb(110,118,125);
-    width: 15%;
     height: 25px;
     padding: 16px;
     font-size: 15px;
