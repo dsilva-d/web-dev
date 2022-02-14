@@ -18,7 +18,8 @@ body{
 }
 
 .wd-tabs {
-    position: relative
+    position: relative;
+    text-align: justify;
     width: auto;
 }
 
