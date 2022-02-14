@@ -36,13 +36,14 @@ body{
     height: 25px;
 }
 .wb-post-search {
-    position: relative;
     top: 40px;
 }
 .wd-tab-unhighlighted {
     position: relative;
     text-align: center;
     color: gray;
+    width: 16%;
+    height: 25px;
 }
 .wb-alignment-done {
     position: relative;
