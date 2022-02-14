@@ -18,7 +18,7 @@ body{
     width: 100%;
 }
 .wd-book-heading {
-    position: absolute;
+    position: relative;
     top:12px;
     left:16px;
 
