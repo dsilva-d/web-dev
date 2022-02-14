@@ -17,18 +17,26 @@ body{
     width: auto;
 }
 
+.wd-posts {
+    position: relative
+    width: auto;
+}
+.wd-trending-1 {
+    color: rgb(29,161,242);
+
+}
+.wd-trending-2 {
+    color: rgb(29,161,242);
+
+}
+
+
 .wd-tabs {
     position: relative;
     text-align: justify;
     width: auto;
 }
 
-.stretch {
-  width: 100%;
-  display: inline-block;
-  font-size: 0;
-  line-height: 0
-}
 
 .wd-search{
     border-radius: 25px;
