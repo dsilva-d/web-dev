@@ -25,4 +25,6 @@ body{
 .wd-book-user {
     position: absolute;
     height: 20px;
+    font-color:rgb(211,211,211);
+    font-size:13px;
 }
