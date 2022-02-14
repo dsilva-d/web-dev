@@ -12,10 +12,10 @@ body{
     color: white;
     height: 25px;
     width: 100%;
-    position: relative;
-    left: 8px;
+    margin-right: 41px;
 }
 .wd-gear {
-    position: relative;
+    position: absolute;
+    height: 8px;
     right: 8px;
 }
