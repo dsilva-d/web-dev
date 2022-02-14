@@ -36,6 +36,7 @@ body{
     height: 25px;
 }
 .wb-post-search {
+    position: relative;
     top: 40px;
 }
 .wd-tab-unhighlighted {
