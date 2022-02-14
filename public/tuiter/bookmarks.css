@@ -12,20 +12,16 @@ body{
 .wd-book-head {
     position: absolute;
     border-size: 1px;
-    border-color: rgb(211,211,211);
+    border-color: rgb(47, 51, 54);
     border-style: solid;
     height: 52px;
     width: 100%;
 }
 .wd-book-heading {
     position: relative;
-    top:0px;
-    left:16px;
-
 }
 .wd-book-user {
     position: relative;
-    top: 12px;
-    font-color:rgb(211,211,211);
+    font-color: rgb(211,211,211);
     font-size:13px;
 }
