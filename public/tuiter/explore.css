@@ -35,6 +35,9 @@ body{
     width: 16%;
     height: 25px;
 }
+.wb-post-search {
+    top: 40px;
+}
 .wd-tab-unhighlighted {
     text-align: center;
     color: gray;
