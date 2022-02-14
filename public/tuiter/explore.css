@@ -13,9 +13,9 @@ body{
     height: 25px;
     width: 100%;
     position: relative;
-    right: 8px;
+    left: 8px;
 }
 .wd-gear {
     position: relative;
-    left: 8px;
+    right: 8px;
 }
