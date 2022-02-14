@@ -10,15 +10,15 @@ body{
     position: absolute;
     width: auto;
 }
+
 .wd-div-search-tabs {
     position: absolute
     width: auto;
-    top: 70px;
 }
+
 .wd-tabs {
     position: absolute
     width: auto;
-    top: 34px;
 }
 
 .wd-search{
