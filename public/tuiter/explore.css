@@ -25,7 +25,7 @@ body{
     border-radius: 25px;
     background-color: rgb(36,36,36);
     color: gray;
-    position: relative;
+    position: absolute;
     padding-left: 28px;
     right: 41px;
     left: 16px;
