@@ -29,6 +29,7 @@ body{
     padding-left: 28px;
     right: 41px;
     left: 16px;
+    width: auto;
 }
 .wd-magnify{
     position: absolute;
