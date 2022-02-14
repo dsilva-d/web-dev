@@ -12,6 +12,7 @@ body{
 .wd-book-head {
     position: relative;
     border-size: 1px;
-    border-color: light gray;
+    border-color: rgb(211,211,211);
     height: 24px;
+    width: 100%;
 }
