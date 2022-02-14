@@ -20,11 +20,13 @@ body{
 .wd-book-heading {
     position: absolute;
     top:12px;
+    right:8px;
 
 }
 .wd-book-user {
     position: absolute;
-    top: 20px;
+    top: 24px;
+    right: 8px;
     font-color:rgb(211,211,211);
     font-size:13px;
 }
