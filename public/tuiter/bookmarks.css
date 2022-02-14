@@ -10,7 +10,7 @@ body{
     right: 8px;
 }
 .wd-book-head {
-    position: relative;
+    position: absolute;
     border-size: 1px;
     border-color: rgb(211,211,211);
     border-style: solid;
@@ -19,13 +19,13 @@ body{
 }
 .wd-book-heading {
     position: relative;
-    top:0px;
+    top:12px;
     left:16px;
 
 }
 .wd-book-user {
-    position: absolute;
-    top: 24px;
+    position: relative;
+    top: 12px;
     left: 16px;
     font-color:rgb(211,211,211);
     font-size:13px;
