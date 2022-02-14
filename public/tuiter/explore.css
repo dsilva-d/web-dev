@@ -24,7 +24,7 @@ body{
     top: 8px;
     right: 8px;
 }
-.wd-tab-alignment {
+.wd-alignment {
     float: left;
 }
 .wb-tab-highlighted {
@@ -39,6 +39,6 @@ body{
     text-align: center;
     color: gray;
 }
-.wb-tab-done {
+.wb-alignment-done {
     clear: both;
 }
