@@ -3,3 +3,6 @@ body{
     color: white;
     border-color: rgb(47, 51, 54)
 }
+.wd-offset {
+    margin-left: 16px;
+}
