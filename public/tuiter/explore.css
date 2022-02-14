@@ -40,7 +40,7 @@ body{
 }
 .wb-tab-highlighted {
     text-align: center;
-    color: blue;
+    color: rgb(29,161,242);
     border-bottom: 4px solid;
     border-bottom-color: blue;
     width: 16%;
