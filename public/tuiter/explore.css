@@ -11,7 +11,7 @@ body{
     background-color: rgb(36,36,36);
     color: rgb(36,36,36);
     position: absolute;
-    padding-left: 25px;
+    padding-left: 28px;
     right: 41px;
     left: 16px;
 }
@@ -19,9 +19,23 @@ body{
     position: absolute;
     left: 25px;
 }
-
 .wd-gear {
     position: absolute;
     top: 8px;
     right: 8px;
+}
+.wd-tab-alignment {
+    float: left;
+}
+.wb-tab-highlighted {
+    text-align: center;
+    color: blue;
+    border-bottom: 4px solid;
+    border-bottom-color: blue;
+}
+.wd-tab-unhighlighted {
+    text-align: center;
+}
+.wb-tab-done {
+    clear: both;
 }
