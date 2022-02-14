@@ -7,17 +7,17 @@ body{
     margin-left: 16px;
 }
 .wd-search-section {
-    position: absolute;
+    position: relative;
     width: auto;
 }
 
 .wd-div-search-tabs {
-    position: absolute
+    position: relative
     width: auto;
 }
 
 .wd-tabs {
-    position: absolute
+    position: relative
     width: auto;
 }
 
