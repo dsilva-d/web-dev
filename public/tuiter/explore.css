@@ -32,6 +32,8 @@ body{
     color: blue;
     border-bottom: 4px solid;
     border-bottom-color: blue;
+    width: 16%;
+    height: 50px;
 }
 .wd-tab-unhighlighted {
     text-align: center;
