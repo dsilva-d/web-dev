@@ -47,7 +47,7 @@ body{
 }
 
 .wd-post-content {
-    position: relative;
+    position: absolute;
     width: 506px;
     font-size: 15px;
     left: 16px;
