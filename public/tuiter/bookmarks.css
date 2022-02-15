@@ -69,7 +69,7 @@ body{
     position: relative;
     color: rgb(47, 51, 54);
     text-align: center;
-    width: auto;
+    width: 504px;
 }
 .wd-interact div {
     display: inline-block;
