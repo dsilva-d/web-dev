@@ -66,7 +66,6 @@ body{
 
 .wd-interact {
     position: relative;
-    top: 12px;
     color: rgb(47, 51, 54);
     text-align: justify;
     width: auto;
@@ -77,7 +76,7 @@ body{
     float: left;
 }
 
-.wb-alignment-done {
+.wd-alignment-done {
     position: relative;
     clear: both;
 }
@@ -89,6 +88,7 @@ body{
     font-size:20px;
     color: white;
 }
+
 .wd-book-user {
     position: absolute;
     top: 32px;
