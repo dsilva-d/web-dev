@@ -66,15 +66,16 @@ body{
 }
 
 .wd-interact {
-    display: table;
-    table-layout: fixed;
     position: relative;
     color: rgb(47, 51, 54);
-    text-align: justify;
+    text-align: center;
     width: auto;
 }
 .wd-interact div {
-    display: table-cell;
+    display: inline-block;
+    vertical-align: top;
+    margin: 2%;
+    padding:20px;
     text-align: center;
 }
 
