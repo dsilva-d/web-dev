@@ -1,6 +1,6 @@
 body{
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     border-color: rgb(47, 51, 54)
 }
 
@@ -56,7 +56,7 @@ body{
 .wd-post-image {
     position: relative;
     width: 504px;
-    height: auto;
+    bottom: 10px;
     top: 12px;
     left: 12px;
     border-radius: 25px;
@@ -71,6 +71,7 @@ body{
     text-align: center;
     width: 504px;
 }
+
 .wd-interact div {
     display: inline-block;
     vertical-align: top;
