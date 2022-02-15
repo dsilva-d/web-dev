@@ -50,6 +50,7 @@ body{
     position: relative;
     width: 506px;
     font-size: 15px;
+    left: 16px;
 }
 
 .wd-post-image {
