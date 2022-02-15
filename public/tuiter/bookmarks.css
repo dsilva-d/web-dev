@@ -29,8 +29,26 @@ body{
 
 .wd-poster {
     position: relative;
-    width: 48px;
     top: 16px;
+}
+
+.wd-poster-avatar {
+    position: relative;
+    width: 48px;
+}
+.wd-poster-name {
+    position: relative;
+    font-size: 12px;
+}
+
+.wd-post-content {
+    position: relative;
+    width: 504px;
+    height: 264px;
+}
+
+.wd-post-image {
+
 }
 
 .wd-book-heading {
