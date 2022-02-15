@@ -25,6 +25,7 @@ body{
     border-style: solid;
     height: 500px;
     width: 100%;
+    top: 12px;
 }
 
 .wd-poster {
