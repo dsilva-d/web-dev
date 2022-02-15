@@ -59,6 +59,7 @@ body{
     bottom: 10px;
     top: 12px;
     left: 12px;
+    height: auto;
     border-radius: 25px;
     overflow: hidden;
     border-color: rgb(47, 51, 54);
