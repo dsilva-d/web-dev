@@ -75,7 +75,7 @@ body{
 .wd-tab-alignment {
     float: left;
 }
-.wb-tab-highlighted {
+.wd-tab-highlighted {
     text-align: center;
     color: rgb(29,161,242);
     border-bottom: 4px solid;
@@ -91,6 +91,7 @@ body{
     padding: 16px;
     font-size: 15px;
 }
+
 .wb-alignment-done {
     position: relative;
     clear: both;
