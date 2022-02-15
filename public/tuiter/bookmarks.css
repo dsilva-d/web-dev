@@ -55,8 +55,10 @@ body{
 
 .wd-post-image {
     width: 504px;
-    height: 264px;
     top: 12px;
+    border-radius: 25px;
+    border-size: 1px;
+    
 }
 
 .wd-book-heading {
