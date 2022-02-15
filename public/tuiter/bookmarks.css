@@ -27,6 +27,12 @@ body{
     width: 100%;
 }
 
+.wd-poster {
+    position: relative;
+    width: 48px;
+    top: 16px;
+}
+
 .wd-book-heading {
     position: absolute;
     top: 12px;
