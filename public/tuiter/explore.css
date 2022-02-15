@@ -82,6 +82,7 @@ body{
     border-bottom-color: rgb(29,161,242);
     height: 25px;
     padding: 16px;
+    font-size: 15px;
 }
 
 .wd-tab-unhighlighted {
@@ -89,7 +90,7 @@ body{
     color: rgb(110,118,125);
     height: 25px;
     padding: 16px;
-    size: 15px;
+    font-size: 15px;
 }
 
 .wd-alignment-done {
