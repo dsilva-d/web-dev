@@ -66,6 +66,8 @@ body{
 
 .wd-interact {
     position: relative;
+    top: 12px;
+    color: rgb(47, 51, 54);
     text-align: justify;
     width: auto;
 }
