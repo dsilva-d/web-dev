@@ -35,6 +35,7 @@ body{
 .wd-poster-avatar {
     position: relative;
     width: 48px;
+    left: 16px;
 }
 .wd-poster-name {
     position: relative;
