@@ -56,12 +56,12 @@ body{
 .wd-post-image {
     position: relative;
     width: 504px;
+    height: 1000px;
     top: 12px;
     left: 12px;
     border-radius: 25px;
     border-color: rgb(47, 51, 54);
     border-size: 1px;
-    height: 300px;
 }
 
 .wd-interact {
