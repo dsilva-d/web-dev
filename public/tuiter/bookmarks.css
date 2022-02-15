@@ -61,7 +61,7 @@ body{
     left: 12px;
     border-radius: 25px;
     border-color: rgb(47, 51, 54);
-    border: 2px solid;
+    border: 1px solid;
     padding: 12px;
 }
 
@@ -75,7 +75,7 @@ body{
     display: inline-block;
     vertical-align: top;
     margin: 2%;
-    padding: 63px;
+    padding:25px;
     text-align: center;
 }
 
