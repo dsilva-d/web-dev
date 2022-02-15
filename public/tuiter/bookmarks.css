@@ -25,12 +25,11 @@ body{
     border-style: solid;
     height: 500px;
     width: 100%;
-    top: 12px;
 }
 
 .wd-poster {
     position: relative;
-    top: 16px;
+    top: 12px;
 }
 
 .wd-poster-avatar {
@@ -40,7 +39,9 @@ body{
 }
 .wd-poster-name {
     position: relative;
-    font-size: 12px;
+    font-size: 15px;
+    left: 12px;
+    color: rgb(47, 51, 54);
 }
 
 .wd-post-content {
