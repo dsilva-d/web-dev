@@ -17,18 +17,27 @@ body{
     height: 64px;
     width: 100%;
 }
+
+.wd-post {
+    position: relative;
+    border-size: 1px;
+    border-color: rgb(47, 51, 54);
+    border-style: solid;
+    height: px;
+    width: 100%;
+}
+
 .wd-book-heading {
     position: absolute;
     top: 12px;
     left: 16px;
     font-size:20px;
-    font-color: white;
+    color: white;
 }
 .wd-book-user {
     position: absolute;
     top: 32px;
     left: 16px;
     color: rgb(128,128,128);
-    font-color: rgb(128,128,128);
     font-size:13px;
 }
