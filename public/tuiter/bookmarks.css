@@ -64,6 +64,22 @@ body{
     height: 300px;
 }
 
+.wd-interact {
+    position: relative;
+    text-align: justify;
+    width: auto;
+}
+
+.wd-alignment-interact {
+    position: relative;
+    float: left;
+}
+
+.wb-alignment-done {
+    position: relative;
+    clear: both;
+}
+
 .wd-book-heading {
     position: absolute;
     top: 12px;
