@@ -34,11 +34,13 @@ body{
 
 .wd-poster-avatar {
     position: relative;
+    float: left;
     width: 48px;
     left: 16px;
 }
 .wd-poster-name {
     position: relative;
+    float: left
     font-size: 15px;
     left: 12px;
     color: rgb(47, 51, 54);
