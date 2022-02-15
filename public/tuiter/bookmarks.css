@@ -61,7 +61,7 @@ body{
     left: 12px;
     border-radius: 25px;
     border-color: rgb(47, 51, 54);
-    border-size: 5px;
+    border: 2px solid;
     padding: 12px;
 }
 
