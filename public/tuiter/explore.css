@@ -97,3 +97,7 @@ body{
     position: relative;
     clear: both;
 }
+
+.top-page {
+  margin-top: 8px;
+}
