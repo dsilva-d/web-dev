@@ -30,9 +30,9 @@ body{
 }
 
 .wd-suggested-photo {
-    height: 100px;
-    width: 100px;
-    border-radius: 25px;
+    height: 75px;
+    width: 75px;
+    border-radius: 25%;
     position: absolute;
     right: 16px;
 }
@@ -51,22 +51,24 @@ body{
     position: relative;
     text-align: justify;
     width: auto;
+    align-items: stretch;
 }
 
 
 .wd-search{
     border-radius: 25px;
-    background-color: rgb(36,36,36);
     color: gray;
     position: absolute;
     padding-left: 28px;
     right: 41px;
-    left: 16px;
+    left: 0px;
     width: auto;
 }
 .wd-magnify{
     position: absolute;
-    left: 25px;
+    color: gray;
+    left: 10px;
+    top: 6px;
 }
 .wd-gear {
     position: absolute;
@@ -77,8 +79,10 @@ body{
 }
 .wd-tab-highlighted {
     text-align: center;
-    color: rgb(29,161,242);
-    border-bottom: 4px solid;
+    color: rgb(110,118,125);
+    border-left: 1px solid;
+    border-top: 1px solid;
+    border-right: 1px solid;
     border-bottom-color: rgb(29,161,242);
     height: 25px;
     padding: 16px;
@@ -87,7 +91,9 @@ body{
 
 .wd-tab-unhighlighted {
     text-align: center;
-    color: rgb(110,118,125);
+    color: rgb(29,161,242);
+    border-bottom: 1px solid;
+    border-bottom-color: rgb(110,118,125);
     height: 25px;
     padding: 16px;
     font-size: 15px;
@@ -98,6 +104,12 @@ body{
     clear: both;
 }
 
-.top-page {
+.wd-top-page {
   margin-top: 8px;
+}
+
+.wd-main-image {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
 }
