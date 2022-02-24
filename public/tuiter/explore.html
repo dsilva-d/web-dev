@@ -10,8 +10,9 @@
 
 
 <div class="container wd-top-page">
+<!--COL 1-->
     <div class="row">
-    <div class="col-2">
+    <div class="col-2 d-none d-xxl-block d-xl-block">
         <ul class="list-group">
             <li class="list-group-item"><i class="fab fa-twitter"> </i></li>
             <li class="list-group-item"><a href="./home.html"><i class="fa fa-home"> Home</i></a></li>
@@ -26,16 +27,45 @@
         </ul>
     </div>
 
-    <div class="col-7">
+    <div class="col-1 d-none d-lg-block d-xl-none">
+        <ul class="list-group">
+                <li class="list-group-item"><i class="fab fa-twitter"> </i></li>
+                <li class="list-group-item"><a href="./home.html"><i class="fa fa-home"></i></a></li>
+                <li class="list-group-item active"><i class="fa fa-solid fa-hashtag"></i></li>
+                <li class="list-group-item"><a href="./notifications.html"><i class="fa fa-solid fa-bell"></i></a></li>
+                <li class="list-group-item"><a href="./messages.html"><i class="fa fa-solid fa-envelope"></i></a></li>
+                <li class="list-group-item"><a href="./bookmarks.html"><i class="fa fa-solid fa-bookmark"></i></a></li>
+                <li class="list-group-item"><a href="./lists.html"><i class="fa fa-solid fa-list"></i></a></li>
+                <li class="list-group-item"><a href="./profile.html"><i class="fa fa-solid fa-user"></i></a></li>
+                <li class="list-group-item"><a href="./profile.html"><i class="fa fa-ellipsis-h"></i></a></li>
+                <button type="button" class="btn btn-primary" style="border-radius: 20px;">Tuit</button>
+        </ul>
+    </div>
+
+    <div class="col-2 d-none d-md-block d-sm-block d-lg-none">
+        <ul class="list-group">
+                <li class="list-group-item"><i class="fab fa-twitter"> </i></li>
+                <li class="list-group-item"><a href="./home.html"><i class="fa fa-home"></i></a></li>
+                <li class="list-group-item active"><i class="fa fa-solid fa-hashtag"></i></li>
+                <li class="list-group-item"><a href="./notifications.html"><i class="fa fa-solid fa-bell"></i></a></li>
+                <li class="list-group-item"><a href="./messages.html"><i class="fa fa-solid fa-envelope"></i></a></li>
+                <li class="list-group-item"><a href="./bookmarks.html"><i class="fa fa-solid fa-bookmark"></i></a></li>
+                <li class="list-group-item"><a href="./lists.html"><i class="fa fa-solid fa-list"></i></a></li>
+                <li class="list-group-item"><a href="./profile.html"><i class="fa fa-solid fa-user"></i></a></li>
+                <li class="list-group-item"><a href="./profile.html"><i class="fa fa-ellipsis-h"></i></a></li>
+                <button type="button" class="btn btn-primary" style="border-radius: 20px;">Tuit</button>
+        </ul>
+    </div>
+
+<!--COL 2-->
+    <div class="col-7 d-none d-xxl-block">
         <ul class="list-group">
             <li class="list-group-item" style="border: none;">
                 <div class="wd-search-section">
                     <input height="25px" class="wd-search" placeholder="Search Tuiter" type="search">
                     <i class="fa fa-search wd-magnify"></i>
-                    <!--<img height="18px" class="wd-magnify" src="magnify.png">-->
                     <a href="./explore-settings.html">
                         <img height="25px" class="wd-gear" src="gear.png">
-                        <!--<i class="fa fa-gear wd-gear"></i>-->
                     </a>
                 </div>
             </li>
@@ -56,9 +86,9 @@
                     <div class="pull-left" style="color: white; font-size: 24px; position: relative; left: 15%; bottom: 36px"><b>SpaceX's Starship</b></div>
                 </div>
             </li>
-                <li class="list-group-item">
-                    <li class="list-group list-group-horizontal">
-                        <li class="list-group-item">
+                <li class="list-group-item" style="font-size: 19px;">
+                    <ul class="list-group list-group-horizontal">
+                        <li class="list-group-item col-10" style="border: none;">
                             <div class="wd-trending">
                             <span style="float:left">Web Development</span>
                             <br>
@@ -69,53 +99,502 @@
                             very easy to build Single Page Applications or SPAs</b></span></p>
                             </div>
                         </li>
-                        <li class="list-group-item">
-
-                            <img src="react.png" class="wd-suggested-photo">
+                        <li class="list-group-item col" style="padding-left: 0px;  padding-right: 0px; border: none;">
+                            <img src="react.png" class="wd-suggested-photo img-fluid">
                         </li>
+                    </ul>
                 </li>
-                <li class="list-group-item">
-                    <img src="javascript.png" class="wd-suggested-photo">
-                    <div class="wd-trending">
-                        <p style="color:black;"><b>JavaScript </b><i class="fa fa-check-circle"></i>
-                            <span style="color:gray"> - 2h</span>
-                            <br>
-                        <span style="color:black"><b>JavaScript is programming language that can run on browsers
+                <li class="list-group-item" style="font-size: 19px;">
+                    <ul class="list-group list-group-horizontal">
+                        <li class="list-group-item col-10" style="border: none;">
+                            <div class="wd-trending">
+                                <p style="color:black;"><b>JavaScript </b><i class="fa fa-check-circle"></i>
+                                    <span style="color:gray"> - 2h</span>
+                                    <br>
+                                    <span style="color:black"><b>JavaScript is programming language that can run on browsers
                             as well as desktops</b></span>
-                            <br>
-                        <span style="color:gray">123K Tuits</span></p>
+                                    <br>
+                                    <span style="color:gray">123K Tuits</span></p>
+                            </div>
+                        </li>
+                        <li class="list-group-item col" style="padding-left: 0px;  padding-right: 0px; border: none;">
+                            <img src="javascript.png" class="wd-suggested-photo img-fluid">
+                        </li>
+                    </ul>
+                </li>
+                <li class="list-group-item" style="font-size: 19px;">
+                    <ul class="list-group list-group-horizontal">
+                        <li class="list-group-item col-10" style="border: none;">
+                            <div class="wd-trending">
+                            <span style="float:left">Web Development</span>
+                            <p>
+                                <br>
+                                <span style="color:black"><b>jQuery</b></span>
+                                <br>
+                                <span style="color:gray">123K Tuits</span></p>
+                            </div>
+                        </li>
+                        <li class="list-group-item col" style="padding-left: 0px;  padding-right: 0px; border: none;">
+                            <img src="jquery.png" class="wd-suggested-photo img-fluid">
+                        </li>
+                    </ul>
+                </li>
+                <li class="list-group-item" style="max-height: 120px; font-size: 19px">
+                    <ul class="list-group list-group-horizontal" style="max-height: 80px">
+                        <li class="list-group-item col-10" style="border: none;">
+                            <div class="wd-trending">
+                                <p>Web Development
+                                    <br>
+                                    <span style="color:black"><b>NodeJS </b><i class="fa fa-check-circle"></i>
+                                        <span style="color:gray"> - 2h</span>
+                                    </span>
+                                    <br>
+                                    <span style="color:gray">123K Tuits</span>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="list-group-item col" style="padding-left: 0px;  padding-right: 0px; border: none;">
+                            <img src="nodejs.png" class="wd-suggested-photo img-fluid">
+                        </li>
+                    </ul>
+                    <div class="wd-trending">
+
                     </div>
                 </li>
-                <li class="list-group-item">
-                    <div class="wd-trending">
-                        <img src="jquery.png" class="wd-suggested-photo">
-                        <p>Web Development
-                            <br>
-                        <span style="color:black"><b>jQuery</b></span>
-                            <br>
-                        <span style="color:gray">123K Tuits</span></p>
-                    </div>
-                </li>
-                <il class="list-group-item">
-                    <div class="wd-trending">
-                        <img src="nodejs.png" class="wd-suggested-photo">
-                        <p>Web Development
-                            <br>
-                        <span style="color:black"><b>NodeJS </b><i class="fa fa-check-circle"></i>
-                            <span style="color:gray"> - 2h</span>
-                        </span>
-                            <br>
-                        <span style="color:gray">123K Tuits</span>
-                        </p>
-                    </div>
-                </il>
             </li>
         </ul>
-
-
-
     </div>
-        <div class="col-3">
+
+        <div class="col-7 d-none d-xl-block d-xxl-none">
+            <ul class="list-group">
+                <li class="list-group-item" style="border: none;">
+                    <div class="wd-search-section">
+                        <input height="25px" class="wd-search" placeholder="Search Tuiter" type="search">
+                        <i class="fa fa-search wd-magnify"></i>
+                        <a href="./explore-settings.html">
+                            <img height="25px" class="wd-gear" src="gear.png">
+                        </a>
+                    </div>
+                </li>
+                <li class="list-group-item" style="border: none;">
+                    <div class="wd-tabs center">
+                        <a href="./explore.html"><div class="wd-tab-highlighted wd-tab-alignment"><span style="position: relative; bottom: 8px;">For you</span></div></a>
+                        <a href="./trending.html"><div class="wd-tab-unhighlighted wd-tab-alignment"><span style="position: relative; bottom: 8px;">Trending</span></div></a>
+                        <a href="./covid19.html"><div class="wd-tab-unhighlighted wd-tab-alignment"><span style="position: relative; bottom: 8px;">COVID-19</span></div></a>
+                        <a href="./news.html"><div class="wd-tab-unhighlighted wd-tab-alignment"><span style="position: relative; bottom: 8px;">News</span></div></a>
+                        <a href="./sports.html"><div class="wd-tab-unhighlighted wd-tab-alignment"><span style="position: relative; bottom: 8px;">Sports</span></div></a>
+                        <a href="./entertainment.html"><div class="wd-tab-unhighlighted wd-tab-alignment"><span style="position: relative; bottom: 8px;">Entertainment</span></div></a>
+                        <div class="wd-alignment-done"></div>
+                    </div>
+                </li>
+                <li class="list-group-item" style="border: none;">
+                    <div>
+                        <div class="pull-left wd-main-image"><img src="spaceship.jpg"/></div>
+                        <div class="pull-left" style="color: white; font-size: 24px; position: relative; left: 15%; bottom: 36px"><b>SpaceX's Starship</b></div>
+                    </div>
+                </li>
+                <li class="list-group-item" style="font-size: 16px;">
+                    <ul class="list-group list-group-horizontal">
+                        <li class="list-group-item col-10" style="border: none;">
+                            <div class="wd-trending">
+                                <span style="float:left">Web Development</span>
+                                <br>
+                                <p style="color:black;"><b>ReactJS</b> <i class="fa fa-check-circle"></i>
+                                    <span style="color:gray"> - 2h</span>
+                                    <br>
+                                    <span style="color:black;"><b>React.js is a component based front end library that makes it
+                            very easy to build Single Page Applications or SPAs</b></span></p>
+                            </div>
+                        </li>
+                        <li class="list-group-item col" style="padding-left: 0px;  padding-right: 0px; border: none;">
+                            <img src="react.png" class="wd-suggested-photo img-fluid">
+                        </li>
+                    </ul>
+                </li>
+                <li class="list-group-item" style="font-size: 16px;">
+                    <ul class="list-group list-group-horizontal">
+                        <li class="list-group-item col-10" style="border: none;">
+                            <div class="wd-trending">
+                                <p style="color:black;"><b>JavaScript </b><i class="fa fa-check-circle"></i>
+                                    <span style="color:gray"> - 2h</span>
+                                    <br>
+                                    <span style="color:black"><b>JavaScript is programming language that can run on browsers
+                            as well as desktops</b></span>
+                                    <br>
+                                    <span style="color:gray">123K Tuits</span></p>
+                            </div>
+                        </li>
+                        <li class="list-group-item col" style="padding-left: 0px;  padding-right: 0px; border: none;">
+                            <img src="javascript.png" class="wd-suggested-photo img-fluid">
+                        </li>
+                    </ul>
+                </li>
+                <li class="list-group-item"  style="font-size: 16px;">
+                    <ul class="list-group list-group-horizontal">
+                        <li class="list-group-item col-10" style="border: none;">
+                            <div class="wd-trending">
+                                <span style="float:left">Web Development</span>
+                                <p>
+                                    <br>
+                                    <span style="color:black"><b>jQuery</b></span>
+                                    <br>
+                                    <span style="color:gray">123K Tuits</span></p>
+                            </div>
+                        </li>
+                        <li class="list-group-item col" style="padding-left: 0px;  padding-right: 0px; border: none;">
+                            <img src="jquery.png" class="wd-suggested-photo img-fluid">
+                        </li>
+                    </ul>
+                </li>
+                <li class="list-group-item" style="max-height: 120px; font-size: 16px;">
+                    <ul class="list-group list-group-horizontal" style="max-height: 80px">
+                        <li class="list-group-item col-10" style="border: none;">
+                            <div class="wd-trending">
+                                <p>Web Development
+                                    <br>
+                                    <span style="color:black"><b>NodeJS </b><i class="fa fa-check-circle"></i>
+                                        <span style="color:gray"> - 2h</span>
+                                    </span>
+                                    <br>
+                                    <span style="color:gray">123K Tuits</span>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="list-group-item col" style="padding-left: 0px;  padding-right: 0px; border: none;">
+                            <img src="nodejs.png" class="wd-suggested-photo img-fluid">
+                        </li>
+                    </ul>
+                    <div class="wd-trending">
+
+                    </div>
+                </li>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-8 d-none d-lg-block d-xl-none">
+            <ul class="list-group">
+                <li class="list-group-item" style="border: none;">
+                    <div class="wd-search-section">
+                        <input height="25px" class="wd-search" placeholder="Search Tuiter" type="search">
+                        <i class="fa fa-search wd-magnify"></i>
+                        <a href="./explore-settings.html">
+                            <img height="25px" class="wd-gear" src="gear.png">
+                        </a>
+                    </div>
+                </li>
+                <li class="list-group-item" style="border: none;">
+                    <div class="wd-tabs center">
+                        <a href="./explore.html"><div class="wd-tab-highlighted wd-tab-alignment"><span style="position: relative; bottom: 8px;">For you</span></div></a>
+                        <a href="./trending.html"><div class="wd-tab-unhighlighted wd-tab-alignment"><span style="position: relative; bottom: 8px;">Trending</span></div></a>
+                        <a href="./covid19.html"><div class="wd-tab-unhighlighted wd-tab-alignment"><span style="position: relative; bottom: 8px;">COVID-19</span></div></a>
+                        <a href="./news.html"><div class="wd-tab-unhighlighted wd-tab-alignment"><span style="position: relative; bottom: 8px;">News</span></div></a>
+                        <a href="./sports.html"><div class="wd-tab-unhighlighted wd-tab-alignment"><span style="position: relative; bottom: 8px;">Sports</span></div></a>
+                        <a href="./entertainment.html"><div class="wd-tab-unhighlighted wd-tab-alignment"><span style="position: relative; bottom: 8px;">Entertainment</span></div></a>
+                        <div class="wd-alignment-done"></div>
+                    </div>
+                </li>
+                <li class="list-group-item" style="border: none;">
+                    <div>
+                        <div class="pull-left wd-main-image"><img src="spaceship.jpg"/></div>
+                        <div class="pull-left" style="color: white; font-size: 24px; position: relative; left: 15%; bottom: 36px"><b>SpaceX's Starship</b></div>
+                    </div>
+                </li>
+                <li class="list-group-item" style="font-size: 16px;">
+                    <ul class="list-group list-group-horizontal">
+                        <li class="list-group-item col-10" style="border: none;">
+                            <div class="wd-trending">
+                                <span style="float:left">Web Development</span>
+                                <br>
+                                <p style="color:black;"><b>ReactJS</b> <i class="fa fa-check-circle"></i>
+                                    <span style="color:gray"> - 2h</span>
+                                    <br>
+                                    <span style="color:black;"><b>React.js is a component based front end library that makes it
+                            very easy to build Single Page Applications or SPAs</b></span></p>
+                            </div>
+                        </li>
+                        <li class="list-group-item col" style="padding-left: 0px;  padding-right: 0px; border: none;">
+                            <img src="react.png" class="wd-suggested-photo img-fluid">
+                        </li>
+                    </ul>
+                </li>
+                <li class="list-group-item" style="font-size: 16px;">
+                    <ul class="list-group list-group-horizontal">
+                        <li class="list-group-item col-10" style="border: none;">
+                            <div class="wd-trending">
+                                <p style="color:black;"><b>JavaScript </b><i class="fa fa-check-circle"></i>
+                                    <span style="color:gray"> - 2h</span>
+                                    <br>
+                                    <span style="color:black"><b>JavaScript is programming language that can run on browsers
+                            as well as desktops</b></span>
+                                    <br>
+                                    <span style="color:gray">123K Tuits</span></p>
+                            </div>
+                        </li>
+                        <li class="list-group-item col" style="padding-left: 0px;  padding-right: 0px; border: none;">
+                            <img src="javascript.png" class="wd-suggested-photo img-fluid">
+                        </li>
+                    </ul>
+                </li>
+                <li class="list-group-item"  style="font-size: 16px;">
+                    <ul class="list-group list-group-horizontal">
+                        <li class="list-group-item col-10" style="border: none;">
+                            <div class="wd-trending">
+                                <span style="float:left">Web Development</span>
+                                <p>
+                                    <br>
+                                    <span style="color:black"><b>jQuery</b></span>
+                                    <br>
+                                    <span style="color:gray">123K Tuits</span></p>
+                            </div>
+                        </li>
+                        <li class="list-group-item col" style="padding-left: 0px;  padding-right: 0px; border: none;">
+                            <img src="jquery.png" class="wd-suggested-photo img-fluid">
+                        </li>
+                    </ul>
+                </li>
+                <li class="list-group-item" style="max-height: 120px; font-size: 16px;">
+                    <ul class="list-group list-group-horizontal" style="max-height: 80px">
+                        <li class="list-group-item col-10" style="border: none;">
+                            <div class="wd-trending">
+                                <p>Web Development
+                                    <br>
+                                    <span style="color:black"><b>NodeJS </b><i class="fa fa-check-circle"></i>
+                                        <span style="color:gray"> - 2h</span>
+                                    </span>
+                                    <br>
+                                    <span style="color:gray">123K Tuits</span>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="list-group-item col" style="padding-left: 0px;  padding-right: 0px; border: none;">
+                            <img src="nodejs.png" class="wd-suggested-photo img-fluid">
+                        </li>
+                    </ul>
+                    <div class="wd-trending">
+
+                    </div>
+                </li>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-7 d-none d-md-block d-lg-none">
+            <ul class="list-group">
+                <li class="list-group-item" style="border: none;">
+                    <div class="wd-search-section">
+                        <input height="25px" class="wd-search" placeholder="Search Tuiter" type="search">
+                        <i class="fa fa-search wd-magnify"></i>
+                        <a href="./explore-settings.html">
+                            <img height="25px" class="wd-gear" src="gear.png">
+                        </a>
+                    </div>
+                </li>
+                <li class="list-group-item" style="border: none;">
+                    <div class="wd-tabs center">
+                        <a href="./explore.html"><div class="wd-tab-highlighted wd-tab-alignment"><span style="position: relative; bottom: 8px;">For you</span></div></a>
+                        <a href="./trending.html"><div class="wd-tab-unhighlighted wd-tab-alignment"><span style="position: relative; bottom: 8px;">Trending</span></div></a>
+                        <a href="./covid19.html"><div class="wd-tab-unhighlighted wd-tab-alignment"><span style="position: relative; bottom: 8px;">COVID-19</span></div></a>
+                        <a href="./news.html"><div class="wd-tab-unhighlighted wd-tab-alignment"><span style="position: relative; bottom: 8px;">News</span></div></a>
+                        <a href="./sports.html"><div class="wd-tab-unhighlighted wd-tab-alignment"><span style="position: relative; bottom: 8px;">Sports</span></div></a>
+                        <a href="./entertainment.html"><div class="wd-tab-unhighlighted wd-tab-alignment"><span style="position: relative; bottom: 8px;">Entertainment</span></div></a>
+                        <div class="wd-alignment-done"></div>
+                    </div>
+                </li>
+                <li class="list-group-item" style="border: none;">
+                    <div>
+                        <div class="pull-left wd-main-image"><img src="spaceship.jpg"/></div>
+                        <div class="pull-left" style="color: white; font-size: 24px; position: relative; left: 15%; bottom: 36px"><b>SpaceX's Starship</b></div>
+                    </div>
+                </li>
+                <li class="list-group-item" style="font-size: 14px;">
+                    <ul class="list-group list-group-horizontal">
+                        <li class="list-group-item col-10" style="border: none;">
+                            <div class="wd-trending">
+                                <span style="float:left">Web Development</span>
+                                <br>
+                                <p style="color:black;"><b>ReactJS</b> <i class="fa fa-check-circle"></i>
+                                    <span style="color:gray"> - 2h</span>
+                                    <br>
+                                    <span style="color:black;"><b>React.js is a component based front end library that makes it
+                            very easy to build Single Page Applications or SPAs</b></span></p>
+                            </div>
+                        </li>
+                        <li class="list-group-item col" style="padding-left: 0px;  padding-right: 0px; border: none;">
+                            <img src="react.png" class="wd-suggested-photo img-fluid">
+                        </li>
+                    </ul>
+                </li>
+                <li class="list-group-item" style="font-size: 14px;">
+                    <ul class="list-group list-group-horizontal">
+                        <li class="list-group-item col-10" style="border: none;">
+                            <div class="wd-trending">
+                                <p style="color:black;"><b>JavaScript </b><i class="fa fa-check-circle"></i>
+                                    <span style="color:gray"> - 2h</span>
+                                    <br>
+                                    <span style="color:black"><b>JavaScript is programming language that can run on browsers
+                            as well as desktops</b></span>
+                                    <br>
+                                    <span style="color:gray">123K Tuits</span></p>
+                            </div>
+                        </li>
+                        <li class="list-group-item col" style="padding-left: 0px;  padding-right: 0px; border: none;">
+                            <img src="javascript.png" class="wd-suggested-photo img-fluid">
+                        </li>
+                    </ul>
+                </li>
+                <li class="list-group-item"  style="font-size: 14px;">
+                    <ul class="list-group list-group-horizontal">
+                        <li class="list-group-item col-10" style="border: none;">
+                            <div class="wd-trending">
+                                <span style="float:left">Web Development</span>
+                                <p>
+                                    <br>
+                                    <span style="color:black"><b>jQuery</b></span>
+                                    <br>
+                                    <span style="color:gray">123K Tuits</span></p>
+                            </div>
+                        </li>
+                        <li class="list-group-item col" style="padding-left: 0px;  padding-right: 0px; border: none;">
+                            <img src="jquery.png" class="wd-suggested-photo img-fluid">
+                        </li>
+                    </ul>
+                </li>
+                <li class="list-group-item" style="max-height: 120px; font-size: 14px;">
+                    <ul class="list-group list-group-horizontal" style="max-height: 80px">
+                        <li class="list-group-item col-10" style="border: none;">
+                            <div class="wd-trending">
+                                <p>Web Development
+                                    <br>
+                                    <span style="color:black"><b>NodeJS </b><i class="fa fa-check-circle"></i>
+                                        <span style="color:gray"> - 2h</span>
+                                    </span>
+                                    <br>
+                                    <span style="color:gray">123K Tuits</span>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="list-group-item col" style="padding-left: 0px;  padding-right: 0px; border: none;">
+                            <img src="nodejs.png" class="wd-suggested-photo img-fluid">
+                        </li>
+                    </ul>
+                    <div class="wd-trending">
+
+                    </div>
+                </li>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-7 d-none d-sm-block d-md-none">
+            <ul class="list-group">
+                <li class="list-group-item" style="border: none;">
+                    <div class="wd-search-section">
+                        <input height="25px" class="wd-search" placeholder="Search Tuiter" type="search">
+                        <i class="fa fa-search wd-magnify"></i>
+                        <a href="./explore-settings.html">
+                            <img height="25px" class="wd-gear" src="gear.png">
+                        </a>
+                    </div>
+                </li>
+                <li class="list-group-item" style="border: none;">
+                    <div class="wd-tabs center">
+                        <a href="./explore.html"><div class="wd-tab-highlighted wd-tab-alignment"><span style="position: relative; bottom: 8px;">For you</span></div></a>
+                        <a href="./trending.html"><div class="wd-tab-unhighlighted wd-tab-alignment"><span style="position: relative; bottom: 8px;">Trending</span></div></a>
+                        <a href="./covid19.html"><div class="wd-tab-unhighlighted wd-tab-alignment"><span style="position: relative; bottom: 8px;">COVID-19</span></div></a>
+                        <a href="./news.html"><div class="wd-tab-unhighlighted wd-tab-alignment"><span style="position: relative; bottom: 8px;">News</span></div></a>
+                        <a href="./sports.html"><div class="wd-tab-unhighlighted wd-tab-alignment"><span style="position: relative; bottom: 8px;">Sports</span></div></a>
+                        <a href="./entertainment.html"><div class="wd-tab-unhighlighted wd-tab-alignment"><span style="position: relative; bottom: 8px;">Entertainment</span></div></a>
+                        <div class="wd-alignment-done"></div>
+                    </div>
+                </li>
+                <li class="list-group-item" style="border: none;">
+                    <div>
+                        <div class="pull-left wd-main-image"><img src="spaceship.jpg"/></div>
+                        <div class="pull-left" style="color: white; font-size: 24px; position: relative; left: 15%; bottom: 36px"><b>SpaceX's Starship</b></div>
+                    </div>
+                </li>
+                <li class="list-group-item" style="font-size: 11px;">
+                    <ul class="list-group list-group-horizontal">
+                        <li class="list-group-item col-10" style="border: none;">
+                            <div class="wd-trending">
+                                <span style="float:left">Web Development</span>
+                                <br>
+                                <p style="color:black;"><b>ReactJS</b> <i class="fa fa-check-circle"></i>
+                                    <span style="color:gray"> - 2h</span>
+                                    <br>
+                                    <span style="color:black;"><b>React.js is a component based front end library that makes it
+                            very easy to build Single Page Applications or SPAs</b></span></p>
+                            </div>
+                        </li>
+                        <li class="list-group-item col" style="padding-left: 0px;  padding-right: 0px; border: none;">
+                            <img src="react.png" class="wd-suggested-photo img-fluid">
+                        </li>
+                    </ul>
+                </li>
+                <li class="list-group-item" style="font-size: 11px;">
+                    <ul class="list-group list-group-horizontal">
+                        <li class="list-group-item col-10" style="border: none;">
+                            <div class="wd-trending">
+                                <p style="color:black;"><b>JavaScript </b><i class="fa fa-check-circle"></i>
+                                    <span style="color:gray"> - 2h</span>
+                                    <br>
+                                    <span style="color:black"><b>JavaScript is programming language that can run on browsers
+                            as well as desktops</b></span>
+                                    <br>
+                                    <span style="color:gray">123K Tuits</span></p>
+                            </div>
+                        </li>
+                        <li class="list-group-item col" style="padding-left: 0px;  padding-right: 0px; border: none;">
+                            <img src="javascript.png" class="wd-suggested-photo img-fluid">
+                        </li>
+                    </ul>
+                </li>
+                <li class="list-group-item"  style="font-size: 11px;">
+                    <ul class="list-group list-group-horizontal">
+                        <li class="list-group-item col-10" style="border: none;">
+                            <div class="wd-trending">
+                                <span style="float:left">Web Development</span>
+                                <p>
+                                    <br>
+                                    <span style="color:black"><b>jQuery</b></span>
+                                    <br>
+                                    <span style="color:gray">123K Tuits</span></p>
+                            </div>
+                        </li>
+                        <li class="list-group-item col" style="padding-left: 0px;  padding-right: 0px; border: none;">
+                            <img src="jquery.png" class="wd-suggested-photo img-fluid">
+                        </li>
+                    </ul>
+                </li>
+                <li class="list-group-item" style="max-height: 120px; font-size: 11px;">
+                    <ul class="list-group list-group-horizontal" style="max-height: 80px">
+                        <li class="list-group-item col-10" style="border: none;">
+                            <div class="wd-trending">
+                                <p>Web Development
+                                    <br>
+                                    <span style="color:black"><b>NodeJS </b><i class="fa fa-check-circle"></i>
+                                        <span style="color:gray"> - 2h</span>
+                                    </span>
+                                    <br>
+                                    <span style="color:gray">123K Tuits</span>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="list-group-item col" style="padding-left: 0px;  padding-right: 0px; border: none;">
+                            <img src="nodejs.png" class="wd-suggested-photo img-fluid">
+                        </li>
+                    </ul>
+                    <div class="wd-trending">
+
+                    </div>
+                </li>
+                </li>
+            </ul>
+        </div>
+
+<!--COL 3-->
+    <div class="col-3 d-none d-xxl-block d-xl-block">
             <ul class="list-group">
                 <li class="list-group-item"><b>Who to follow</b></li>
 
@@ -215,6 +694,17 @@
         </div>
 
     </div>
+
+
+        <h2>Hiding and showing responsive content</h2>
+        <div class="d-block d-sm-none fa-2x">XS</div>
+        <div class="d-none d-sm-block d-md-none fa-2x">S</div>
+        <div class="d-none d-md-block d-lg-none fa-2x">M</div>
+        <div class="d-none d-lg-block d-xl-none fa-2x">L</div>
+        <div class="d-none d-xl-block d-xxl-none fa-2x">XL</div>
+        <div class="d-none d-xxl-block fa-2x">XXL</div>
+
+
 </div>
 
 </body>
