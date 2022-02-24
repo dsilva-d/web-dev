@@ -3,38 +3,22 @@ body{
     color: white;
     border-color: rgb(47, 51, 54)
 }
-.wd-offset {
-    margin-left: 16px;
-}
 .wd-search-section {
-    position: relative;
     width: auto;
     height: 24px;
 }
 
-.wd-div-search-tabs {
-    position: relative
-    width: auto;
-}
-
-.wd-posts {
-    position: relative
-    width: auto;
-}
 .wd-trending {
     color: rgb(110, 118, 125);
     border: 5px;
     width: auto;
     height: 105px;
-
 }
 
 .wd-suggested-photo {
     height: 100px;
     width: 100px;
     border-radius: 25%;
-    position: absolute;
-    right: 0px;
 }
 
 .wd-ellipse {
@@ -48,7 +32,6 @@ body{
 
 
 .wd-tabs {
-    position: relative;
     text-align: justify;
     width: auto;
     align-items: stretch;
@@ -58,20 +41,15 @@ body{
 .wd-search{
     border-radius: 25px;
     color: gray;
-    position: absolute;
-    padding-left: 28px;
     right: 41px;
-    left: 0px;
     width: auto;
 }
 .wd-magnify{
-    position: absolute;
     color: gray;
     left: 10px;
     top: 6px;
 }
 .wd-gear {
-    position: absolute;
     right: 8px;
 }
 .wd-tab-alignment {
@@ -85,8 +63,7 @@ body{
     border-right: 1px solid;
     border-bottom-color: rgb(29,161,242);
     height: 25px;
-    padding: 16px;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .wd-tab-unhighlighted {
@@ -95,17 +72,11 @@ body{
     border-bottom: 1px solid;
     border-bottom-color: rgb(110,118,125);
     height: 25px;
-    padding: 16px;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .wd-alignment-done {
-    position: relative;
     clear: both;
-}
-
-.wd-top-page {
-  margin-top: 8px;
 }
 
 .wd-main-image {
@@ -115,3 +86,24 @@ body{
     justify-content: center;
     overflow: hidden;
 }
+
+.wd-xxl-font {
+    font-size: 16px;
+}
+
+.wd-xl-font {
+    font-size: 16px;
+}
+
+.wd-lg-font {
+    font-size: 16px;
+}
+
+.wd-md-font {
+    font-size: 14px;
+}
+
+.wd-sm-font {
+    font-size: 11px;
+}
+
