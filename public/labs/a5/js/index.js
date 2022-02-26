@@ -112,12 +112,33 @@ const username = "alice";
 const greeting1 = `Welcome home ${username}`;
 console.log(greeting1);
 
-const loggedIn = false;
-const greeting2 = `Logged in: ${loggedIn ? "Yes" : "No"}`;
+const isLoggedIn = false;
+const greeting2 = `Logged in: ${isLoggedIn ? "Yes" : "No"}`;
 
 const init = () => {
     console.log('Hello world from jQuery');
     /* do the rest of the lab work here */
+    const bindById = $('#bind-by-id');
+    const bindByClass = $('.bind-by-class');
+    console.log('Binding to DOM');
+    console.log(bindById);
+    console.log(bindByClass);
+
+    const changeStyle = $('#change-style');
+    const changeStyle2 = $('.change-style');
+    changeStyle.css('color', 'red');
+    changeStyle2.css('color', 'blue');
+
+    const getIdAttr = $("#get-id-attr");
+    const id = getIdAttr.attr('id');
+    console.log(id);
+
+    const setClassAttr = $("#set-class-attr");
+    setClassAttr.attr('class', 'class-0');
+
+    const addClass1Example = $("#add-class-1");
+    addClass1Example.addClass('class-1');
+
 }
 $(init);
 
