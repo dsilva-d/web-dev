@@ -4,7 +4,7 @@ import React from "react";
 const ExploreComponent = () => {
     return(
     <>
-<div className={`col-6 d-none d-xxl-block`}>
+        <div>
         <ul className={`list-group`}>
             <li className={`list-group-item`} style={{"border": "none"}}>
                 <div className={`wd-search-section position-relative`}>
