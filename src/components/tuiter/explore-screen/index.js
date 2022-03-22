@@ -67,7 +67,7 @@ const ExploreComponent = () => {
                            </li>
                            <li className={`list-group-item`} style={{"border": "none"}}>
                                <div>
-                                   <div className={`pull-left wd-main-image`}> <img src="../spaceship.jpg"> </img> </div>
+                                   <div className={`pull-left wd-main-image`}> <img src="../spaceship.jpg"></img> </div>
                                    <div className={`pull-left position-absolute bottom-0 mb-2 ms-2`} style={{"color": "white", "fontSize": "32px"}}><b>SpaceX's Starship</b></div>
                                </div>
                            </li>

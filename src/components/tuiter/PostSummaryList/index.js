@@ -1,9 +1,8 @@
 import React from "react";
-import {Link} from "react-router-dom";
 import PostSummaryItem  from "./post-summary-item.js";
 import exploreItems from "./posts.json";
 
-const PostSummaryList =()=> (
+const PostSummaryList =()=>
     <>
     {exploreItems.map(exploreItems=> {
     return(
@@ -13,7 +12,6 @@ const PostSummaryList =()=> (
     );
     })}
     </>
-)
 export default PostSummaryList;
 
 

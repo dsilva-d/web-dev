@@ -4,14 +4,12 @@ import NavigationSidebar from "./NavigationSidebar";
 import WhoToFollowList from "./WhoToFollowList";
 import PostSummaryList from "./PostSummaryList";
 import ExploreComponent from "./explore-screen";
+import ExploreScreen from "./explore-screen";
 
 const Tuiter = () => {
     return(
     <>
-    <ExploreComponent/>
-    <PostSummaryList/>
-    <NavigationSidebar active="home"/>
-    <WhoToFollowList/>
+    <ExploreScreen/>
     <Link to="/hello"> Hello </Link> |
     <Link to="/"> Labs </Link>
     </>

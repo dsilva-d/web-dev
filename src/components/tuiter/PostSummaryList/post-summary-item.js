@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import post from "./posts.json";
 
 const PostSummaryItem = (post) => {
     return(

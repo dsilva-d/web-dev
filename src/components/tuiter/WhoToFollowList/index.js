@@ -1,5 +1,4 @@
 import React from "react";
-import {Link} from "react-router-dom";
 import WhoToFollowListItem from "./who-to-follow-list-item.js";
 import who from "./who.json";
 
