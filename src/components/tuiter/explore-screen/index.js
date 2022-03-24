@@ -1,6 +1,7 @@
 import PostSummaryList from "../PostSummaryList/index.js";
 import React from "react";
 
+
 const ExploreComponent = () => {
     return(
     <>
@@ -11,7 +12,7 @@ const ExploreComponent = () => {
                     <input height="25px" className={`wd-search start-0 position-absolute ps-4`} placeholder="Search Tuiter" type="search"></input>
                     <i className={`fa fa-search wd-magnify position-absolute`}></i>
                     <a href="./explore-settings.html">
-                        <img height="25px" className={`wd-gear position-absolute`} src="../gear.png"></img>
+                        <img height="25px" className={`wd-gear position-absolute`} src="./gear.png"></img>
                     </a>
                 </div>
             </li>
@@ -27,13 +28,12 @@ const ExploreComponent = () => {
                 <div className={`wd-tab-unhighlighted wd-tab-alignment p-3`}><span style={{"position": "relative", "bottom": "8px"}}></span></div>
                 <div className={`wd-tab-unhighlighted wd-tab-alignment p-3`}><span style={{"position": "relative", "bottom": "8px"}}></span></div>
                 <div className={`wd-tab-unhighlighted wd-tab-alignment p-3`}><span style={{"position": "relative", "bottom": "8px"}}></span></div>
-
                 <div className={`wd-alignment-done position-relative`}></div>
             </div>
             </li>
             <li className={`list-group-item`} style={{"border": "none"}}>
                 <div>
-                    <div className={`pull-left wd-main-image`}><img src="../spaceship.jpg"></img></div>
+                    <div className={`pull-left wd-main-image`}><img src="./spaceship.jpg"></img></div>
                     <div className={`pull-left position-absolute bottom-0 mb-2 ms-4`} style={{"color": "white", "fontSize": "32px"}}><b>SpaceX's Starship</b></div>
                 </div>
             </li>
