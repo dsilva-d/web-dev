@@ -37,10 +37,3 @@ const TuitList = ({tuit}) => {
 }
 
 export default TuitList;
-
-//                <div style={{display: 'flex',  justifyContent:'center', alignItems:'center'}}>
-//                    <div><a href="./reply.html"><i className={`fa fa-comment`}/></a> {tuit.stats.comments}</div>
-//                    <div><a href="./retuit.html"><i className={`fa fa-retweet`}/></a> {tuit.stats.retuits}</div>
-//                    <div><a href="./like.html"><i className={`fa fa-heart`}/></a> {tuit.stats.likes}</div>
-//                    <div><a href="./share.html"><i className={`fa fa-share`}/></a></div>
-//                </div>

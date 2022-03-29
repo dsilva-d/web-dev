@@ -1,4 +1,5 @@
 import tuits from "../data/tuits.json";
+import TuitListItem from "../tuit-list/tuit-list-item";
 
 const tuitsReducer = (state = tuits, action) => {
    switch (action.type) {
@@ -21,20 +22,22 @@ const tuitsReducer = (state = tuits, action) => {
       case 'delete-tuit':
         return state.filter(
            tuit => tuit._id !== action.tuit._id);
-     case 'create-tuit':
-       const newTuit = {
-         tuit: action.tuit,
-         _id: (new Date()).getTime() + '',
-         postedBy: {
-           "username": "ReactJS"
-         },
-         stats: {
-           retuits: 0,
-           likes: 0,
-           replies: 0
-         },
-         "time": "Now"
 
+      case 'create-tuit':
+        const newTuit = {
+          tuit: action.tuit,
+          _id: (new Date()).getTime() + '',
+          postedBy: {
+            "username": "New York Times"
+          },
+          "handle": "nytimes",
+          stats: {
+            retuits: 0,
+            likes: 0,
+            comments: 0,
+          },
+          "time": "Now",
+          "avatarImage": "../nyt.png"
        }
        return [
          newTuit,

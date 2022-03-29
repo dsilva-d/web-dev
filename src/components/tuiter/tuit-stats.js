@@ -7,11 +7,11 @@ const TuitStats = ({tuit}) => {
   };
   return (
   <>
-  <div style={{display: 'flex',  justifyContent:'center', alignItems:'center'}}>
+  <div style={{display: 'flex'}}>
 
-    <div><a href="./reply.html"><i className={`fa fa-comment`}/></a> {tuit.stats.comments}</div>
-    <div><a href="./retuit.html"><i className={`fa fa-retweet`}/></a> {tuit.stats.retuits}</div>
-    <div>
+    <div style={{position: "absolute", left: "15%", bottom: "0px"}}><a href="./reply.html"><i className={`fa fa-comment`}/></a> {tuit.stats.comments}</div>
+    <div style={{position: "absolute", left: "35%", bottom: "0px"}}><a href="./retuit.html"><i className={`fa fa-retweet`}/></a> {tuit.stats.retuits}</div>
+    <div style={{position: "absolute", right: "35%", bottom: "0px"}}>
         <span onClick={likeTuit}>
         {
           tuit.liked &&
@@ -25,7 +25,7 @@ const TuitStats = ({tuit}) => {
         {tuit.stats && tuit.stats.likes}
         </span>
     </div>
-    <div><a href="./share.html"><i className={`fa fa-share`}/></a></div>
+    <div style={{position: "absolute", right: "15%", bottom: "0px"}}><a href="./share.html"><i className={`fa fa-share`}/></a></div>
   </div>
   </>
   );
