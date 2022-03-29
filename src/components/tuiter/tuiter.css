@@ -1,0 +1,107 @@
+body{
+    background-color: black;
+    color: white;
+    border-color: rgb(47, 51, 54)
+}
+.wd-search-section {
+    width: auto;
+    height: 24px;
+}
+
+.wd-trending {
+    color: rgb(110, 118, 125);
+    border: 5px;
+    width: auto;
+    height: 105px;
+}
+
+.wd-suggested-photo {
+    border-radius: 25%;
+}
+
+.wd-ellipse {
+    float: right;
+    text-align: right;
+}
+
+.wd-icon {
+    height: 8px;
+}
+
+
+.wd-tabs {
+    text-align: justify;
+    width: auto;
+    align-items: stretch;
+}
+
+
+.wd-search{
+    border-radius: 25px;
+    color: gray;
+    right: 41px;
+    width: auto;
+}
+.wd-magnify{
+    color: gray;
+    left: 10px;
+    top: 6px;
+}
+.wd-gear {
+    right: 8px;
+}
+.wd-tab-alignment {
+    float: left;
+}
+.wd-tab-highlighted {
+    text-align: center;
+    color: rgb(110,118,125);
+    border-left: 1px solid;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-bottom-color: rgb(29,161,242);
+    height: 25px;
+    font-size: 13px;
+}
+
+.wd-tab-unhighlighted {
+    text-align: center;
+    color: rgb(29,161,242);
+    border-bottom: 1px solid;
+    border-bottom-color: rgb(110,118,125);
+    height: 25px;
+    font-size: 13px;
+}
+
+.wd-alignment-done {
+    clear: both;
+}
+
+.wd-main-image {
+    background-image: spaceship.jpg;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.wd-xxl-font {
+    font-size: 16px;
+}
+
+.wd-xl-font {
+    font-size: 16px;
+}
+
+.wd-lg-font {
+    font-size: 16px;
+}
+
+.wd-md-font {
+    font-size: 14px;
+}
+
+.wd-sm-font {
+    font-size: 11px;
+}
+
