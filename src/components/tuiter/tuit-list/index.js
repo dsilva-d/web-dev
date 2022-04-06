@@ -1,6 +1,6 @@
 import React, {useEffect} from "react";
 import {useDispatch, useSelector} from "react-redux";
-import * as service from '../../services/tuits-service';
+import * as service from '../../../services/tuits-service';
 import TuitListItem from "./tuit-list-item";
 
 const TuitList = () => {
