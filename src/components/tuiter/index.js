@@ -5,7 +5,6 @@ import "./tuiter.css";
 import "../../fontawesome/css/all.css";
 import NavigationSidebar from "./NavigationSidebar";
 import whoReducer from "./reducers/who-reducer";
-
 import tuitsReducer from "./reducers/tuits-reducer";
 import {combineReducers, createStore} from "redux";
 
