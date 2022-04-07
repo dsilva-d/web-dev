@@ -1,31 +1,38 @@
 import {useDispatch} from "react-redux";
+import {updateTuit} from "./actions/tuits-actions";
 
 const TuitStats = ({tuit}) => {
   const dispatch = useDispatch();
+
   const likeTuit = () => {
     dispatch({type: 'like-tuit', tuit});
   };
+
   return (
   <>
   <div style={{display: 'flex'}}>
 
-    <div style={{position: "absolute", left: "15%", bottom: "0px"}}><a href="./reply.html"><i className={`fa fa-comment`}/></a> {tuit.stats.comments}</div>
-    <div style={{position: "absolute", left: "35%", bottom: "0px"}}><a href="./retuit.html"><i className={`fa fa-retweet`}/></a> {tuit.stats.retuits}</div>
-    <div style={{position: "absolute", right: "35%", bottom: "0px"}}>
-        <span onClick={likeTuit}>
-        {
-          tuit.liked &&
-          <i className="fas fa-heart me-1"
-             style={{color: 'red'}}></i>
-        }
-        {
-          !tuit.liked &&
-          <i className="far fa-heart me-1"></i>
-        }
-        {tuit.stats && tuit.stats.likes}
-        </span>
+    <div style={{position: "absolute", left: "10%", bottom: "0px"}}><a href="./reply.html"><i className={`fa fa-comment`}/></a> {tuit.stats.comments}</div>
+    <div style={{position: "absolute", left: "30%", bottom: "0px"}}><a href="./retuit.html"><i className={`fa fa-retweet`}/></a> {tuit.stats.retuits}</div>
+    <div style={{position: "absolute", right: "40%", bottom: "0px"}}>
+           <div>
+             Likes: {tuit.stats.likes}
+             <i onClick={() => updateTuit(dispatch, {
+               ...tuit,
+               likes: tuit.stats.likes + 1
+             })} className="far fa-thumbs-up ms-2"></i>
+           </div>
     </div>
-    <div style={{position: "absolute", right: "15%", bottom: "0px"}}><a href="./share.html"><i className={`fa fa-share`}/></a></div>
+    <div style={{position: "absolute", right: "20%", bottom: "0px"}}>
+               <div>
+                 Dislikes: {tuit.stats.dislikes}
+                 <i onClick={() => updateTuit(dispatch, {
+                   ...tuit,
+                   dislikes: tuit.stats.dislikes + 1
+                 })} className="far fa-thumbs-down ms-2"></i>
+               </div>
+        </div>
+    <div style={{position: "absolute", right: "5%", bottom: "0px"}}><a href="./share.html"><i className={`fa fa-share`}/></a></div>
   </div>
   </>
   );

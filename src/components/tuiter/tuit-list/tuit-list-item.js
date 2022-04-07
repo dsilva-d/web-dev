@@ -1,8 +1,9 @@
 import React from "react";
 import {useDispatch} from "react-redux";
 import TuitStats from "../tuit-stats";
+import {deleteTuit} from "../actions/tuits-actions";
 
-const TuitList = ({tuit}) => {
+const TuitListItem = ({tuit}) => {
     let attach = ""
     const dispatch = useDispatch();
     const deleteTuit = (tuit) => {
@@ -14,7 +15,7 @@ const TuitList = ({tuit}) => {
             attach = <img src={tuit.attachments.image} width="100%"/>
         }
         if(!("video" in tuit.attachments) == 0) {
-            console.log(attach)
+            console.log(dispatch)
             }
     }
     return(
@@ -30,10 +31,13 @@ const TuitList = ({tuit}) => {
         <TuitStats tuit={tuit}/>
 
         </div>
-        <div><i onClick={() => deleteTuit(tuit)} className="fas fa-remove fa-2x fa-pull-right" style={{"position":"absolute", "right": "10px"}}>x</i></div>
+        <div>
+            <i className="fas fa-remove float-end"
+              onClick={() => deleteTuit(
+                dispatch, tuit)}>x</i>
+        </div>
     </div>
     </>
     );
 }
-
-export default TuitList;
+export default TuitListItem;
