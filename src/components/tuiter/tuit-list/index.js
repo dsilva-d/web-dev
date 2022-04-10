@@ -12,18 +12,19 @@ const TuitList = () => {
     findAllTuits(dispatch),
     []);
 
-
   return (
   <>
     <button onClick={() =>
-      createTuit(dispatch, newTuit)}
+        createTuit(dispatch, newTuit)
+      }
         className="btn btn-primary float-end">
       Tuit
     </button>
     <textarea className="form-control w-75"
       onChange={(e) =>
         setNewTuit({...newTuit,
-        tuit: e.target.value})}></textarea>
+        tuit: e.target.value})
+        }></textarea>
     <ul className="ttr-tuits list-group">
       {
         tuits.map && tuits.map(tuit =>
